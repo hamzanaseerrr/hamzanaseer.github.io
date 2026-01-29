@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <title>Hamza Naseer - Portfolio</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <style>
+ body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; color: #333; }
+ header { background: #111827; color: #fff; padding: 40px 20px; text-align: center; }
+ header h1 { margin: 0; font-size: 2.2rem; }
+ header p { margin: 8px 0 0; font-size: 1rem; opacity: 0.9; }
+ main { max-width: 900px; margin: 20px auto 40px; padding: 0 20px; }
+ section { background: #fff; margin-bottom: 20px; padding: 20px; border-radius: 6px;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+ h2 { margin-top: 0; font-size: 1.3rem; border-bottom: 2px solid #e5e7eb; padding-bottom: 6px; }
+ .about p { line-height: 1.5; }
+ .list-item { margin-bottom: 10px; }
+ .list-item strong { display: block; }
+ .tags span { display: inline-block; background: #e5e7eb; padding: 3px 8px; border-radius: 999px;
+ font-size: 0.8rem; margin: 2px 4px 2px 0; }
+ .contact a { color: #2563eb; text-decoration: none; }
+ .contact a:hover { text-decoration: underline; }
+ footer { text-align: center; font-size: 0.8rem; color: #6b7280; margin-bottom: 20px; }
+ </style>
+</head>
+<body>
+ <header>
+ <h1>Hamza Naseer</h1>
+ <p>Junior Developer</p>
+ </header>
+
+ <main>
+ <section class="about">
+ <h2>About Me</h2>
+ <p>
+ I am a junior developer who is passionate about learning and building real-world projects.
+ I enjoy working with web technologies and improving my problem-solving skills.
+ I’m looking for opportunities to grow, collaborate with others, and contribute to meaningful software.
+ </p>
+ </section>
+
+ <section class="skills">
+ <h2>Skills</h2>
+ <div class="tags">
+ <span>HTML</span>
+ <span>CSS</span>
+ <span>JavaScript</span>
+ </div>
+ </section>
+
+ <section class="projects">
+ <h2>Projects</h2>
+
+ <div class="list-item">
+ <strong>Project Title 1</strong>
+ <span>Short one-line description of the project.</span>
+ <span>
+ <a href="#" target="_blank">Live Demo</a> ·
+ <a href="#" target="_blank">Source Code</a>
+ </span>
+ </div>
+
+ <div class="list-item">
+ <strong>Project Title 2</strong>
+ <span>Short one-line description of the project.</span>
+ <span>
+ <a href="#" target="_blank">Live Demo</a> ·
+ <a href="#" target="_blank">Source Code</a>
+ </span>
+ </div>
+ </section>
+
+ <section class="experience">
+ <h2>Experience / Education</h2>
+ <div class="list-item">
+ <strong>Junior Developer (Learning Path)</strong>
+ <span>Year – Present</span>
+ <span>Practicing web development fundamentals and building small projects to gain experience.</span>
+ </div>
+ </section>
+
+ <section class="contact">
+ <h2>Contact</h2>
+ <p>Email: <a href="mailto:hamza710n@gmail.com">hamza710n@gmail.com</a></p>
+ </section>
+ </main>
+
+ <footer>
+ © <span id="year"></span> Hamza Naseer
+ </footer>
+
+ <script>
+ document.getElementById('year').textContent = new Date().getFullYear();
+ </script>
+</body>
+</html>
